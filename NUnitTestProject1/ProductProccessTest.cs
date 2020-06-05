@@ -147,6 +147,7 @@ namespace NUnitTestProject1
 
         [Test]
         [TestCase("C:\test.txt")]
+        [Ignore("Not Needed")]
         public void GetProductsFromFileTest(string path)
         {
             var products = _productProccessTest.GetProducts(path);

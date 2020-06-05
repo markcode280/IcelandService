@@ -83,8 +83,6 @@ namespace NUnitTestProject1
                        SellInValue=-1
                 },
             };
-
-
             _productQualityItemsExcpected= new List<ProductQuality>()
             {
                 new ProductQuality

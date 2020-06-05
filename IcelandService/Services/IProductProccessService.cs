@@ -9,7 +9,6 @@ namespace IcelandService.Services
     {
         IList<ProductQuality> GetProducts(string path);
         void proccessProductQualityDecrease(ProductQuality product); 
-
         void WriteToFile(ProductQuality product, string fileLocation);
     }
 }

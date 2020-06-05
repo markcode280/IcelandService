@@ -7,17 +7,17 @@ using System.Linq;
 
 namespace NUnitTestProject1
 {
-    public class Tests
+    public class ProductProccessTest
     {
         private IFileService _fileServiceTest;
         private  IProductProccessService _productProccessTest;
         private  IList<ProductQuality> _productQualityItems;
         private  IList<ProductQuality> _productQualityItemsExcpected;
 
-        //public Tests(IProductProccessService productProccessService, IFileService fileServiceTest)
-       // {
-           // _productProccessTest = productProccessService;
-           // _fileServiceTest = fileServiceTest;
+        //public ProductProccessTest(IProductProccessService productProccessService, IFileService fileServiceTest)
+        // {
+        // _productProccessTest = productProccessService;
+        // _fileServiceTest = fileServiceTest;
         //}
 
         [SetUp]
@@ -157,13 +157,11 @@ namespace NUnitTestProject1
         
         public void ProcessProducts()
         {
-
             foreach( var product in _productQualityItems)
             {
                 _productProccessTest.proccessProductQualityDecrease(product);
             }
-            
-            
+
             Assert.AreEqual(_productQualityItemsExcpected, _productQualityItems);
         }
     }

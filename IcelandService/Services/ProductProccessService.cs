@@ -85,7 +85,6 @@ namespace IcelandService.Services
                 }
             }
         }
-
         public void WriteToFile(ProductQuality product,string fileLocation)
         {
             _fileService.save(product, fileLocation);

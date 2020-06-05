@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcelandService", "IcelandService\IcelandService.csproj", "{8955A59E-DBC7-4165-9B3C-90BEC71BC29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{20882115-4237-42E6-886F-537D0110F48E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcelandServiceTest", "NUnitTestProject1\IcelandServiceTest.csproj", "{20882115-4237-42E6-886F-537D0110F48E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F45C8195-A1F0-43E8-93F3-3E245F0BF5F7}"
 	ProjectSection(SolutionItems) = preProject

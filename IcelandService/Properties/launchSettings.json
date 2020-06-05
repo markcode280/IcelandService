@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "IcelandService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
